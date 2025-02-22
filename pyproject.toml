@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-bot"
+version = "0.1.0"
+description = ""
+authors = ["ArtemZhdanovich <artem.zhdanboro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+redis = "^5.2.1"
+pytelegrambotapi = "^4.26.0"
+sqlalchemy = "^2.0.38"
+pydantic = "^2.10.6"
+psycopg2 = "^2.9.10"
+dishka = "^1.4.2"
+alembic = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
